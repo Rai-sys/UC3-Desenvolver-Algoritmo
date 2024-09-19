@@ -1,18 +1,18 @@
-//   01
-// let frutas = ['maçã', 'banana', 'laranja'];
-// frutas.push('uva');
-// frutas.shift();
-// console.log(frutas);
+ // 01
+let frutas = ['maçã', 'banana', 'laranja'];
+frutas.push('uva');
+frutas.shift();
+console.log(frutas);
 
-// function verificarFruta(banana) {
-// if (frutas.includes(banana)) {
-//     return 'fruta encontrada';
-// } else {
-//     return 'fruta não encontrada';
-// }
-// }
-// verificarFruta();
-// console.log(verificarFruta('banana'));
+function verificarFruta(banana) {
+if (frutas.includes(banana)) {
+    return 'fruta encontrada';
+} else {
+    return 'fruta não encontrada';
+}
+}
+verificarFruta();
+console.log(verificarFruta('banana'));
 
 //   02
 // function calcular(a, b, operacao ) {
