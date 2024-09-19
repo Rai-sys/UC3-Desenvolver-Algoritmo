@@ -58,6 +58,9 @@ console.log(verificarFruta('banana'));
 //         return 'entre 10 e 20';
 //     }
 // }
+// for (let i = 0; i < numeros.length; i++) {
+//     console.log(`número ${numeros[i]}: ${verificarNumero(numeros[i])}`)
+// }
 // console.log(verificarNumero(25));
 // console.log(verificarNumero(5));
 // console.log(verificarNumero(15));
@@ -101,6 +104,14 @@ console.log(verificarFruta('banana'));
 //   09 
 
 //   10
+let valores = [5, 10, 15, 20];
+let valoresDivididos = [];
+let i = 0;
+
+while (i < valores.length) {
+    valoresDivididos.push(valores[i]/2);
+    i++;
+}
 
 //   11
 // function compararSoma(num1, num2) {         // ERRADO
