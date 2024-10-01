@@ -79,7 +79,81 @@
 // ???????????????????????????????
 
 //  Questão 10
-let notas = [7.5, 8.0, 6.5, 9.0, 7.0];
-let media = notas.reduce((acc, nota) => acc + nota, 0);
-let status = media >= 7 ? "aprovado" : "reprovado";
-console.log("média:",)
+// let notas = [7.5, 8.0, 6.5, 9.0, 7.0];
+// let media = notas.reduce((acc, nota) => acc + nota, 0);
+// let status = media >= 7 ? "aprovado" : "reprovado";
+// console.log("média:", status);
+
+//   Questão 11 
+// let cidade = "São Paulo";
+// let clima = "ensolarado";
+// let fala = `Hoje em ${cidade} está ${clima}`;
+
+// let novoClima = "chuvoso";
+// let novaFala = fala.replace(clima, novoClima );
+
+// console.log(fala);
+// console.log(novaFala);
+
+//   Questão 12
+// let texto = "javascript é incrivel";
+// let palavras = texto.split(" ");
+// let palavrasInvertida = palavras.reverse();
+// let resultado = palavrasInvertida.map(palavra =>
+//     palavra[0].toUpperCase() + palavra.slice(1)
+// ).join(" ");
+
+// console.log(palavras);
+// console.log(resultado);
+
+//   Questão 13
+// let mes = 6;
+// switch (mes) {
+//     case 1:
+//         console.log("Janeiro");
+//         break;
+//     case 2:
+//         console.log("Fevereiro");
+//         break;
+//     case 3:
+//         console.log("Março");
+//         break;
+//     case 4:
+//         console.log("Abril");
+//         break;
+//     case 5:
+//         console.log("Maio");
+//         break;
+//     case 6:
+//         console.log("Julho");
+//         break;
+//     case 7:
+//         console.log("Junho");
+//         break;
+//     case 8:
+//         console.log("Agosto");
+//         break;
+//     case 9:
+//         console.log("Setembro");
+//         break;
+//     case 10:
+//         console.log("Outubro");
+//         break;
+//     case 11:
+//         console.log("Novembro");
+//         break;
+//     case 12:
+//         console.log("Dezembro");
+//         break;
+    
+// }
+// if (mes >= 1 && mes <= 6) {
+//     console.log("Parte do primeiro semestre");
+// }
+// else if (mes >= 7 && mes <= 12) {
+//     console.log("Parte do segundo semestre");
+// };
+
+//   Questão 14
+let numeroStr = "45.67";
+let numeroInteiro = parseInt()
