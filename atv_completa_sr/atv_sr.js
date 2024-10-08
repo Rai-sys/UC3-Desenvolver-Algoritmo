@@ -78,6 +78,17 @@
 // ???????????????????????????????
 // ???????????????????????????????
 
+// let numerosAleatorios = [];
+// for (let i = 0; i < 10; i++) {
+//     numerosAleatorios.push(Math.floor(Math.random()) * 101);
+// };
+// let maiores50 = numerosAleatorios.filter(function(num) {
+//     return num > 50;
+// });
+// let ordenadoDesc = maiores50.sort(function(a, b) {
+//     return b - a;
+// })
+
 //  Questão 10
 // let notas = [7.5, 8.0, 6.5, 9.0, 7.0];
 // let media = notas.reduce((acc, nota) => acc + nota, 0);
@@ -155,5 +166,22 @@
 // };
 
 //   Questão 14
-let numeroStr = "45.67";
-let numeroInteiro = parseInt()
+// let numeroStr = "45.67";
+// let numeroInteiro = numeroStr;
+// let arredondaoBaixo = Math.floor(numeroInteiro);
+// let arredondaoCima = Math.cell(numeroInteiro);
+// console.log("numero inteiro", numeroInteiro);
+// console.log("arredondado para baixo", arredondaoBaixo);
+// console.log("arredondado cima", arredondaoCima);
+
+//   Questão 15
+
+//   Questão 21
+// let frase = "aprender javascript é divertido";
+// let palavras = frase.split(' ');
+// let numPalavras = palavras.length;
+// let maisDePalavras = numPalavras > 5;
+
+// console.log(palavras);
+// console.log(numPalavras);
+// console.log(maisDePalavras);
