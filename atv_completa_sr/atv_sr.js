@@ -175,6 +175,22 @@
 // console.log("arredondado cima", arredondaoCima);
 
 //   Questão 15
+// let palavra = "programador";
+// let letraA = palavra.indexOf("a");
+// let metadePalavra = palavra.slice(0,5);
+// console.log(palavra.charAt(3));
+// console.log(letraA);
+// console.log(metadePalavra);
+
+//   Questão 16
+// let frase = "estudar programação é ótimo!";
+// let contagemA = 0;
+// for (let i = 0; i < frase.length; i++) {
+//     if (frase[i] === 'a') {
+//         contagemA++;
+//     }
+// }
+// console.log("Quantidade de caracteres 'a':", contagemA);
 
 //   Questão 21
 // let frase = "aprender javascript é divertido";
