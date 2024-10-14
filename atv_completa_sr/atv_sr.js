@@ -192,6 +192,40 @@
 // }
 // console.log("Quantidade de caracteres 'a':", contagemA);
 
+//   Questão 17
+// let letras = ["a", "b", "c", "d", "e"];
+// let letrasInvertidas = letras.reverse();
+// let letrasjuntas = letrasInvertidas.join(", ")
+// console.log("array invertido:", letrasInvertidas);
+// console.log("resultado final:", letrasjuntas);
+
+//   Questão 18
+// let numeros = [5, 12, 8, 130, 44];
+// let maiores10 = numeros.filter(num => num > 10);
+// let somaNumeros = numeros.reduce((acc, num) => acc + num, 0);
+// let tamanhoCorreto = numeros.length === 5;
+// console.log("números maiores que 10:", maiores10);
+// console.log("soma dos numeros do array:", somaNumeros);
+// console.log("array possui 5 elementos?", tamanhoCorreto);
+
+//   Questão 19 
+// let nome = "Alice";
+// let nomeMinisculo = nome.toLowerCase();
+// if (nome === nomeMinisculo) {
+//     console.log("nome reconhecido");
+// } else {
+//     console.log("nome não reconhecido");
+// }
+// console.log("nome minúsculo:", nomeMinisculo);
+
+//   Questão 20
+// let numeros = [];
+// for (let i = 0; i < 5; i++) {
+//     let aleatorio = Math.round(Math.random() * 19) + 1;
+//     numeros.push(aleatorio)
+// }
+// console.log(numeros);
+
 //   Questão 21
 // let frase = "aprender javascript é divertido";
 // let palavras = frase.split(' ');
@@ -201,3 +235,24 @@
 // console.log(palavras);
 // console.log(numPalavras);
 // console.log(maisDePalavras);
+
+//   Questão 22
+// let nome = prompt("Qual é o seu nome?");
+// let confirmarNome = confirm("Esse é você mesmo?");
+// if (confirmarNomer) {
+//     alert("Que bom ser você!");
+// } else {
+//     alert("Intruso >:(");
+// }
+
+//   Questão 23
+// let texto = "JavaScript";
+// let contador = 0;
+// for (let i = 0; i < texto.length; i++) {
+//     if (texto[i] === 'a') {
+//         contador++;
+//     }
+// }
+// console.log("quantidade de 'a':", contador);
+
+//   Questão 24
