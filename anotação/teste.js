@@ -269,3 +269,103 @@
 // let numeros = [1,2,3,4,5]
 // numeros.length=0  // esvaziar
 // console.log(numeros)
+
+/////////////////////////////////////////////////////////////////////////
+
+// const pessoa = {
+//     nome: 'joao',
+//     idade: 30,
+//     cidade: 'sao paulo',
+//     endereco: {
+//         rua: 'tal',
+//         numero: 12,
+//         bairro: 'sla',
+//     }
+// };
+
+// const pessoa = {
+//     nome: 'joao',
+//     idade: 30,
+//     cidade: 'sao paulo',
+// };
+
+///////////////////////////////////////////////////////////////////
+//
+//           F O R    I N    =    O B J 
+//
+// for (let chave in pessoa) {
+//     console.log(`${chave}: ${pessoa[chave]}`);
+// }
+// for (let chave in pessoa) {
+//     if (pessoa.nome === 'joao'){
+//         console.log('usuario encontrado')
+//     } else {
+//         console.log('usuario nao encontrado')
+//     }
+// };
+// console.log(pessoa.nome);
+//
+///////////////////////////////////////////////////////////////
+
+//            F O R   O F    =    A R R A Y
+// const numeros = [{
+//     numero: 1,
+// }, {
+//     numero: 2,
+// }];
+// for (let numero of numeros) {
+//     console.log(numero);
+// }
+
+
+// const frutas = ['maça', 'banana', 'uva'];
+// frutas.forEach((fruta) => {
+//     console.log(`${fruta}`);
+// });
+
+// const frutas = ['maça', 'banana', 'uva'];
+// frutas.forEach(
+//     function frutas(frutas) {
+//         console.log(`${frutas}`);
+//     }
+// );
+
+// const numeros = [1, 2, 3, 4];
+// const dobro = numeros.map(num => num * 2);
+// console.log(dobro);
+
+// const numeros = [1, 2, 3, 4];
+// const pares = numeros.filter(
+//     //    num => num % 2 === 0
+//     function retonarPares(num) {
+//        return num % 2 === 0
+//     }
+// );
+
+// console.log(pares);
+
+// const numeros = [1, 2, 3, 4];
+// const soma = numeros.reduce((acumulador, num) => acumulador + num, 0);
+// console.log(soma); 
+
+// const numeros = [1, 2, 3, 4];
+// const soma = numeros.reduce(
+//     function somarValores(acumulador, num) {
+//         return acumulador + num;
+//     }
+// );
+// console.log(soma);
+
+
+// let contador = 4;
+// // while (contador < 20) {
+// //     if (contador % 2 === 0) {
+// //         console.log(contador)
+// //     }
+// // contador ++
+// // }
+// for (let contador = 4; contador < 20; contador++) {
+//     if (contador % 2 === 0) {
+//         console.log(contador)
+//     }
+// }
