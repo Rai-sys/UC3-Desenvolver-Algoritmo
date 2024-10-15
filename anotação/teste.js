@@ -369,3 +369,8 @@
 //         console.log(contador)
 //     }
 // }
+
+const prompt = require ("prompt-sync")();
+do {
+    let valorDigitado = prompt("digite um valor");
+} while (valorDigitado !== "sair");
