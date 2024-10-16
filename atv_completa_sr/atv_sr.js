@@ -1,3 +1,4 @@
+const prompt = require("prompt-sync")();
 //   Questão 01
 // let numeros = [34, 7, 23, 32, 5, 62];
 // numeros.push(9, 12);
@@ -177,6 +178,7 @@
 //   Questão 15
 
 //   Questão 21
+
 // let frase = "aprender javascript é divertido";
 // let palavras = frase.split(' ');
 // let numPalavras = palavras.length;
