@@ -1,3 +1,4 @@
+const prompt = require("prompt-sync")();
 // function classificarNota() {
 //     const nota = parseInt(prompt('Digite a nota de todos os alunos'))
 //     let resultado;
