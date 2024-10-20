@@ -248,13 +248,13 @@ const prompt = require("prompt-sync")();
 // }
 
 //   Questão 23
-// let texto = "JavaScript";
-// let contador = 0;
-// for (let i = 0; i < texto.length; i++) {
-//     if (texto[i] === 'a') {
-//         contador++;
-//     }
-// }
-// console.log("quantidade de 'a':", contador);
+let texto = "JavaScript";
+let contador = 0;
+for (let i = 0; i < texto.length; i++) {
+    if (texto[i] === 'a') {
+        contador++;
+    }
+}
+console.log("quantidade de 'a':", contador);
 
 //   Questão 24
